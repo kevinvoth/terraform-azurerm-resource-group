@@ -2,6 +2,4 @@
 resource "azurerm_resource_group" "this" {
   name     = local.name
   location = local.location
-
-  # tags = merge(local.default_tags, var.extra_tags)
 }
