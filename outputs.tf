@@ -11,7 +11,7 @@ output "input_configs" {
 
 output "rgs" {
   description = "List of parsed YAML configurations."
-  value       =    { for rg in local.rgs : rg.name => rg } 
+  value       = { for rg in local.rgs : rg.name => rg }
 }
 
 output "resource_group_ids" {
