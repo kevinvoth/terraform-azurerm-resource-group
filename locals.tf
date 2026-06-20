@@ -1,5 +1,4 @@
 
-
 locals {
   input_files = fileset("${path.root}/config/rg", "*.yaml")
 
