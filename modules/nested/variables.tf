@@ -1,5 +1,5 @@
 
-variable "name" {
+variable "resource_group_name" {
   description = "Resource group name."
   type        = string
 }
@@ -9,3 +9,7 @@ variable "location" {
   type        = string
 }
 
+variable "tags" {
+  description = "Tags for the resource group."
+  type        = map(string)
+}
